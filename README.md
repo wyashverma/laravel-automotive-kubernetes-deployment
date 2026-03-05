@@ -3,11 +3,11 @@
 Group No: D6 - Group 05
 Project No: 	DO-16
 
-Project Description
+**Project Description**
 
 This project focuses on deploying a containerized Automotive PHP Laravel application on a Kubernetes cluster using Minikube. The main goal is to demonstrate modern DevOps practices by automating the deployment, scaling, and management of application containers. By using Kubernetes deployment and service manifests, the system ensures high availability, efficient resource management, and seamless application updates with minimal downtime.
 
-Project Overview
+**Project Overview**
 
 The system demonstrates how a traditional web application can be transformed into a scalable cloud-native application using containerization and container orchestration technologies. The Laravel automotive application is first containerized using Docker and then deployed to a Kubernetes cluster running on Minikube. Kubernetes manages the application lifecycle including deployment, scaling, and rolling updates.
 
@@ -49,17 +49,25 @@ kubectl apply -f kubernetes/service.yaml
 5. Access Application
 minikube service laravel-service
 
---------------------------------------------------------
+
 Tech Stack
 --------------------------------------------------------
 Category	                      Tools / Technologies
+-------------------------------------------------------
 Backend Framework	              PHP Laravel
+-------------------------------------------------------
 Containerization                Docker
+-------------------------------------------------------
 Container Orchestration	        Kubernetes
+-------------------------------------------------------
 Local Kubernetes Cluster	      Minikube
+-------------------------------------------------------
 Version Control	                Git
+------------------------------------------------------
 Repository Hosting	            GitHub
+------------------------------------------------------
 Infrastructure Management	      Kubernetes Deployment & Service Manifests
+-----------------------------------------------------
 
 **Key Features**
 
@@ -78,6 +86,6 @@ Infrastructure Management	      Kubernetes Deployment & Service Manifests
 5. Naman Pandey : EN22CS301630
 
 
-Conclusion
+**Conclusion**
 
 The Laravel Automotive Application Deployment on Kubernetes project demonstrates how containerization and orchestration technologies can modernize web application deployment. By using Docker and Kubernetes, the project ensures scalability, reliability, and efficient resource management. The implementation of rolling updates guarantees continuous service availability during application updates, making the deployment process robust and production-ready.
