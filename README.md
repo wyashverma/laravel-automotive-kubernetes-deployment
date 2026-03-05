@@ -52,22 +52,14 @@ minikube service laravel-service
 
 Tech Stack
 --------------------------------------------------------
-Category	                      Tools / Technologies
--------------------------------------------------------
-Backend Framework	              PHP Laravel
--------------------------------------------------------
-Containerization                Docker
--------------------------------------------------------
-Container Orchestration	        Kubernetes
--------------------------------------------------------
-Local Kubernetes Cluster	      Minikube
--------------------------------------------------------
-Version Control	                Git
-------------------------------------------------------
-Repository Hosting	            GitHub
-------------------------------------------------------
-Infrastructure Management	      Kubernetes Deployment & Service Manifests
------------------------------------------------------
+Category	                   :   Tools / Technologies
+Backend Framework	           :   PHP Laravel
+Containerization             :   Docker
+Container Orchestration	     :   Kubernetes
+Local Kubernetes Cluster	   :   Minikube
+Version Control	             :   Git
+Repository Hosting	         :   GitHub
+Infrastructure Management	   :   Kubernetes Deployment & Service Manifests
 
 **Key Features**
 
